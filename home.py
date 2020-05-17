@@ -40,6 +40,18 @@ def helloworld():
                <tr><td></td><td> <input type="submit" value="Predict"></tr></td>
                 </tbody>
           </table>
+
+          <br/><br/><br/><br/>
+          <p> Family --> head count in family</p>
+          <p>CCAvg --> Credit card average. scale with 1 to infinity</p>
+          <p> Education --> level of education like (1, 2,3,4)</p>
+          <p>Mortgage --> Existed loan amount if any(in thousands ex. 1 lakh == 100)</p>
+          <p>CD acount --> Credit account (yes =1 or No =0)</p>
+
+          <br/><br/>
+          <p>output 1 = Eligible for loan 
+                    0 = Not eligible for loan based on the data which model learned</p>
+
           </form>
             </body>
 </html>'''
